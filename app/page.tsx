@@ -1,6 +1,7 @@
 'use client'
 
 import {useEffect, useMemo, useState} from 'react'
+import {auth} from '../lib/firebase'
 import {supabase} from '../lib/supabase'
 
 type RecordItem={
