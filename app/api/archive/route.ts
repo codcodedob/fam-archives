@@ -1,7 +1,7 @@
 import {NextResponse} from 'next/server'
 import crypto from 'node:crypto'
 import {createClient} from '@supabase/supabase-js'
-import {adminAuth,adminDb} from '../../../../lib/firebase-admin'
+import {adminAuth,adminDb} from '../../../lib/firebase-admin'
 
 export const runtime='nodejs'
 
